@@ -1,0 +1,43 @@
+.resume-side-bar-title{
+  margin: 0px;
+  padding-top: 1.5rem;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+  color: rgb(18, 18, 128);
+  // font-family: "Urbanist";
+  // font-weight: 1000;
+  letter-spacing: 0.1rem;}
+
+.resume-side-bar-subtitle{
+  margin: 0rem;
+  font-weight: 500;
+  width: auto;
+}
+
+.resume-side-bar-description{
+
+}
+
+.rating-icon-wrapper{
+  justify-content: end;
+  margin: auto;
+  align-items: center;
+}
+
+.rating-icon{
+  display: contents;
+  color: darkblue;
+  // color: linear-gradient(to bottom right,darkblue, rgb(40, 40, 169))
+}
+
+.rating-icon-empty{
+  display: contents;
+  color: darkblue;
+  background-color: azure;
+}
+
+.rating-icon-label{
+  justify-content: end;
+  padding-right: 1rem;
+  margin: 0px;
+}

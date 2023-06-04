@@ -1,0 +1,26 @@
+<!-- <div class="skills-list d-flex" *ngFor="let skill of skills">
+  <div class="col-2" [attr.data-skill-name]="skill.name">
+    <img
+      class="logo-container"
+      src="{{ skill.src }}"
+      name="{{ skill.name }}"
+      alt="{{ skill.name }}"
+    />
+  </div>
+</div> -->
+
+<div class="skills-list row">
+  <div
+    class="col align-self-center"
+    *ngFor="let skill of skills"
+    [attr.data-skill-name]="skill.name"
+  >
+    <img
+      class="logo-container"
+      style="{{ skill.style }}"
+      src="{{ skill.src }}"
+      name="{{ skill.name }}"
+      alt="{{ skill.name }}"
+    />
+  </div>
+</div>
